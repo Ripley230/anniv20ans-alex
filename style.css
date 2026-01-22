@@ -95,8 +95,16 @@ button:hover {
   margin-top: 8px;
 }
 
-.small_int {
-  color: #9db0cc;
-  font-size: 0px;
-  margin-top: 0px;
+
+.msg .ps {
+  margin-top: 16px;
+  padding-left: 24px;
+  border-left: 2px solid #2b3d5a;
 }
+
+.msg .ps p {
+  margin: 6px 0;
+  font-size: 13px;
+  color: #9db0cc;
+}
+
