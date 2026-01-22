@@ -98,7 +98,7 @@ button:hover {
 .msg .ps {
   color: #9db0cc;
   font-size: 13px;
-  line-height: 1.4;
+    margin-top: 4px;
 }
 
 
