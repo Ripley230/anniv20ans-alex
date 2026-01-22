@@ -95,11 +95,9 @@ button:hover {
   margin-top: 8px;
 }
 
-
-/* PS à l'intérieur du message */
 .msg .ps {
   margin-top: 24px;
-  padding-left: 24px;          /* effet tab */
+  padding-left: 5px;          /* effet tab */
   border-left: 2px solid #223047;
   color: #9db0cc;              /* même couleur que .small */
   font-size: 13px;             /* même taille que .small */
