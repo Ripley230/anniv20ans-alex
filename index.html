@@ -3,23 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
   <title>Accès restreint</title>
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 24px; background: #0b0f14; color: #e8eef6; }
-    .card { max-width: 680px; margin: 0 auto; background: #121926; border: 1px solid #223047; border-radius: 16px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
-    h1 { font-size: 20px; margin: 0 0 10px; }
-    .hint { background: #0f1724; border: 1px dashed #2b3d5a; padding: 12px; border-radius: 12px; margin: 14px 0; }
-    label { display:block; margin: 14px 0 6px; color: #b7c6dd; }
-    input { width: 100%; padding: 12px 12px; border-radius: 12px; border: 1px solid #2b3d5a; background: #0f1724; color: #e8eef6; font-size: 16px; }
-    button { margin-top: 12px; padding: 12px 14px; border-radius: 12px; border: 0; background: #4f7cff; color: white; font-weight: 700; cursor: pointer; }
-    button:hover { filter: brightness(1.05); }
-    .msg { display:none; margin-top: 16px; padding: 16px; border-radius: 12px; background: #0f1724; border: 1px solid #2b3d5a; white-space: pre-wrap; line-height: 1.35; }
-    .error { margin-top: 10px; color: #ff6b6b; display:none; }
-    .ok { margin-top: 10px; color: #6bffb1; display:none; }
-    .small { color:#9db0cc; font-size: 13px; margin-top: 8px; }
-    .small_int { color:#9db0cc; font-size: 0px; margin-top: 0px; }
-  </style>
 </head>
+
 <body>
   <div class="card">
     <h1>Accès restreint — Message pour les 20ans de Alex</h1>
@@ -91,5 +78,6 @@ Quentin 😉
       if (e.key === "Enter") check();
     });
   </script>
+
 </body>
 </html>
