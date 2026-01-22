@@ -96,15 +96,14 @@ button:hover {
 }
 
 
+/* PS à l'intérieur du message */
 .msg .ps {
-  margin-top: 16px;
-  padding-left: 24px;
-  border-left: 2px solid #2b3d5a;
+  margin-top: 24px;
+  padding-left: 24px;          /* effet tab */
+  border-left: 2px solid #223047;
+  color: #9db0cc;              /* même couleur que .small */
+  font-size: 13px;             /* même taille que .small */
+  line-height: 1.4;
 }
 
-.msg .ps p {
-  margin: 6px 0;
-  font-size: 13px;
-  color: #9db0cc;
-}
 
