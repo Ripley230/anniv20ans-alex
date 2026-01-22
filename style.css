@@ -97,10 +97,10 @@ button:hover {
 
 .msg .ps {
   margin-top: 24px;
-  padding-left: 5px;          /* effet tab */
+  padding-left: 1px;
   border-left: 2px solid #223047;
-  color: #9db0cc;              /* même couleur que .small */
-  font-size: 13px;             /* même taille que .small */
+  color: #9db0cc;
+  font-size: 13px;
   line-height: 1.4;
 }
 
