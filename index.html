@@ -17,11 +17,12 @@
     .error { margin-top: 10px; color: #ff6b6b; display:none; }
     .ok { margin-top: 10px; color: #6bffb1; display:none; }
     .small { color:#9db0cc; font-size: 13px; margin-top: 8px; }
+    .small_int { color:#9db0cc; font-size: 13px; margin-top: 0px; }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>🔒 Accès restreint — Message pour les 20ans de Alex</h1>
+    <h1>Accès restreint — Message pour les 20ans de Alex</h1>
     <div class="hint">
       <strong>Indice :</strong><br>
       Quel est le nom du cocktail qui nous avait litéralement enclencher ???
@@ -31,8 +32,8 @@
     <input id="pwd" type="password" placeholder="Entre le mot de passe…" autocomplete="off" />
     <button id="btn">Valider</button>
 
-    <div class="error" id="err">Accès refusé. Réessaie 😈</div>
-    <div class="ok" id="ok">Accès autorisé ✅</div>
+    <div class="error" id="err">Accès refusé. Fait un éffort :(</div>
+    <div class="ok" id="ok">Accès autorisé bien joué chef ;)</div>
 
     <div class="msg" id="message">
 Salut jeune… enfin non, du coup on va plutôt dire salut vieux,
@@ -53,8 +54,8 @@ Pour tes 20 ans, je te souhaite pas un objet, mais des souvenirs. Et ceux-là, o
 
 Bisous bisous,
 Quentin 😉
-      <div class="small">*PS : toute tentative de refus sera considérée comme une acceptation.</div>
-      <div class="small">    PPS : équipement requis : chaussures, motivation, et mauvaise foi.</div>
+      <div class="small_int">*PS : toute tentative de refus sera considérée comme une acceptation.</div>
+      <div class="small_int">    PPS : équipement requis : chaussures, motivation, et mauvaise foi.</div>
     </div>
 
     <div class="small">PS : si tu triches en regardant le code source, je le saurai (non).</div>
@@ -62,7 +63,7 @@ Quentin 😉
   </div>
 
   <script>
-    const PASSWORD = "pornstar"; // <-- ton mdp
+    const PASSWORD = "pornstar";
     const btn = document.getElementById("btn");
     const pwd = document.getElementById("pwd");
     const err = document.getElementById("err");
