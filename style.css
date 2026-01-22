@@ -96,10 +96,10 @@ button:hover {
 }
 
 .msg .ps {
-  margin-top: 24px;
+  margin-top: 10px;
   border-left: 2px solid #223047;
   color: #9db0cc;
-  font-size: 13px;
+  font-size: 5px;
   line-height: 1.4;
 }
 
