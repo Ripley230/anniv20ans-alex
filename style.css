@@ -73,7 +73,7 @@ button:hover {
   border-radius: 12px;
   background: #0f1724;
   border: 1px solid #2b3d5a;
-  white-space: pre-wrap;
+  white-space: pre-line;
   line-height: 1.35;
 }
 
